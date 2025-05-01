@@ -11,14 +11,10 @@ const userData = [
 
 
 const socialLinks = [
-  {
-    socialName: "LinkedIn",
-    socialUl: "#",
-    socialIcon: "mingcute:linkedin-fill",
-  },
+  
   {
     socialName: "GitHub",
-    socialUl: "https://github.com/SofiDevO/allmylinks",
+    socialUl: "https://github.com/kntproductions",
     socialIcon: "fa6-brands:github-alt",
   },
   {
@@ -31,29 +27,24 @@ const socialLinks = [
     socialUl: "#",
     socialIcon: "prime:twitter",
   },
-  {
-    socialName: "Whatsapp",
-    socialUl: "#",
-    socialIcon: "mingcute:whatsapp-fill",
-  },
 ];
 
 const userLinks = [
     {
-        title: "Portfolio",
-        link:"https://itssofi.dev/",
-        icon:"ant-design:code-filled"
+        title: "Chaturbate -  xxlittlemiss95xx",
+        link:"https://www.chaturbate.com/xxlittlemiss95xx",
+        icon:""
     },
     {
-        title: "Sucríbete a mi canal",
-        link:"https://www.youtube.com/channel/UC36_js-krsAHAEAWpEDhHtw",
-        icon:"mingcute:youtube-fill"
+        title: "Chaturbate - myke_drop",
+        link:"https://www.chaturbate.com/myke_drop",
+        icon:""
 
     },
     {
-        title: "Únete a Discord",
-        link:"https://discord.com/invite/wjERezH2",
-        icon:"ic:outline-discord"
+        title: "PornHub",
+        link:"",
+        icon:""
     },
 ]
 
