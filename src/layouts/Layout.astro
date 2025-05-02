@@ -11,6 +11,12 @@ import Analytics from '@vercel/analytics/astro'
   <head>
     <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
     <Analytics />
+    <script is:inline>
+      function speedInsightsBeforeSend(data){
+        console.log("Speed Insights before send", data)
+        return data;
+      }
+    </script>
     <SpeedInsights />
   </head>
   <body>
