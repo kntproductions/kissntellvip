@@ -1,6 +1,6 @@
 const loader = document.querySelector(".heart__loader");
 const initializeModal = (iframe) => {
-  const embeddUrl = "https://cbxyz.com/in/?tour=ZQAI&campaign=9r5I1&signup_notice=1&b=xxlittlemiss95xx&disable_sound=1&mobileRedirect=never";
+  const embeddUrl = "https://chaturbate.com/fullvideo/?b=xxlittlemiss95xx&campaign=9r5I1&disable_sound=1&mobileRedirect=never&signup_notice=1&tour=ZQAI&track=embed";
 
   iframe.setAttribute("src", embeddUrl);
 }
