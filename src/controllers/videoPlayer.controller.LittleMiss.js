@@ -1,6 +1,6 @@
 const loader = document.querySelector(".heart__loader");
 const initializeModal = (iframe) => {
-  const embeddUrl = "https://cbxyz.com/in/?tour=ZQAI&campaign=9r5I1&track=embed&signup_notice=1&b=xxlittlemiss95xx&disable_sound=1&mobileRedirect=never";
+  const embeddUrl = "https://cbxyz.com/in/?tour=ZQAI&campaign=9r5I1&signup_notice=1&b=xxlittlemiss95xx&disable_sound=1&mobileRedirect=never";
 
   iframe.setAttribute("src", embeddUrl);
 }
