@@ -2,13 +2,16 @@
 
 import { SITE_TITLE, SITE_DESCRIPTION } from "../const";
 import BaseHead from "../components/BaseHead.astro";
-
+import  SpeedInsights  from "@vercel/speed-insights/astro"
+import Analytics from '@vercel/analytics/astro'
 ---
 
 <!doctype html>
 <html lang="en">
   <head>
     <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+    <Analytics />
+    <SpeedInsights />
   </head>
   <body>
     <slot />
