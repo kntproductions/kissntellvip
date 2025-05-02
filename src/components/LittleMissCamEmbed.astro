@@ -1,0 +1,53 @@
+---
+
+---
+
+<script>
+    import {loadVideo} from "../controllers/videoPlayer.controller.LittleMiss";
+  
+  </script>
+  
+  <div class="vid__container">
+    <h2 class="vid__title">Little Miss's Stream</h2>
+    <img class="heart__loader" src="./img/astro.png" alt="loader" />
+    <iframe
+      class="latestVideoEmbed"
+      data-vnum="0"
+      width="850px"
+      height="480px"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      frameborder="0"
+      class="code"
+      scrolling="no"
+      id="lmstream"
+      title="xXlittlemiss95Xx's Stream"></iframe>
+  </div>
+  
+  <style>
+    .vid__container {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-size: 2rem;
+      font-weight: bolder;
+      height: auto;
+      padding: 1rem;
+    }
+    .latestVideoEmbed {
+      border-width: 0px;
+      overflow: hidden;
+      border-radius:12px;
+      width: calc(100% - 3rem);
+      min-height: 30rem;
+      min-width: 303px;
+    }
+    .vid__title {
+      margin: 1rem 0;
+    }
+  
+    :global(.dark) .vid__container {
+      color: aqua;
+    }
+  </style>
+  
