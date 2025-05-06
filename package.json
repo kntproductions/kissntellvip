@@ -14,7 +14,7 @@
     "@fontsource-variable/montserrat": "^5.0.19",
     "@vercel/analytics": "^1.5.0",
     "@vercel/speed-insights": "^1.2.0",
-    "astro": "^5.7.5"
+    "astro": "^5.7.10"
   },
   "description": "A simple Astro project to showcase your  links",
   "main": "index.astro",
