@@ -16,13 +16,12 @@
     "@vercel/speed-insights": "^1.2.0",
     "astro": "^5.7.10"
   },
-  "description": "A simple Astro project to showcase your  links",
+  "description": "KissNTellProductions presents a website",
   "main": "index.astro",
   "keywords": [
     "astro",
-    "allMyLinks",
-    "sofidev"
+    "kissntell"
   ],
-  "author": "SofiDev",
+  "author": "KissNTellProductions",
   "license": "MIT"
 }
